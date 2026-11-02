@@ -679,12 +679,12 @@ class ZoomableActivity : BaseActivity() {
                     .setProgressBarImage(ProgressBarDrawable())
                     .setProgressBarImageScaleType(ScalingUtils.ScaleType.FIT_CENTER)
                     .build()
-            with(binding.zoomable) {
+            with(receiver = binding.zoomable) {
                 setHierarchy(hierarchy)
-                setAllowTouchInterceptionWhileZoomed(true)
-                setIsLongpressEnabled(false)
-                setTapListener(
-                    DoubleTapGestureListener(this) {
+                touchHandler.allowTouchInterceptionWhileZoomed = true
+                touchHandler.setIsLongpressEnabled(false)
+                touchHandler.setTapListener(
+                    DoubleTapGestureListener(draweeView = this) {
                         toggleSystemBars()
                     },
                 )
