@@ -1005,7 +1005,6 @@
     <ID>TooManyFunctions:WikidataItemDetailsActivity.kt$WikidataItemDetailsActivity : BaseActivityMediaDetailProviderCategoryImagesCallback</ID>
     <ID>TooManyFunctions:ZoomableActivity.kt$ZoomableActivity : BaseActivity</ID>
     <ID>TooManyFunctions:ZoomableController.kt$ZoomableController</ID>
-    <ID>TooManyFunctions:ZoomableDraweeView.kt$ZoomableDraweeView : DraweeViewScrollingView</ID>
     <ID>UnusedPrivateProperty:BookmarkItemsDaoTest.kt$BookmarkItemsDaoTest$i</ID>
     <ID>UnusedPrivateProperty:BookmarkListRootFragment.kt$BookmarkListRootFragment$private val bookmarkLocationsFragment: BookmarkLocationsFragment? = null</ID>
     <ID>UnusedPrivateProperty:BookmarkLocationsViewModel.kt$BookmarkLocationsViewModel$private val bookmarkLocationsDao: BookmarkLocationsDao</ID>
